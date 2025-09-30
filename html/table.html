@@ -16,6 +16,7 @@
     <h2>달력</h2>
     <table>
         <caption>9월</caption>
+        <thead>
         <tr>
             <th>월</th>
             <th>화</th>
@@ -25,11 +26,13 @@
             <th>토</th>
             <th>일</th>
         </tr>
+        </thead>
 
+        <tbody>
         <tr>
             <td></td>
-            <td>1</td>
-            <td>2</td>
+            <td rowspan="2">1</td>
+            <td colspan="3">2</td>
             <td>3</td>
             <td>4</td>
             <td>5</td>
@@ -38,7 +41,7 @@
 
         <tr>
             <td>7</td>
-            <td>8</td>
+            <td colspan="3">8 </td>
             <td>9</td>
             <td>10</td>
             <td>11</td>
@@ -47,13 +50,13 @@
         </tr>
 
         <tr>
-            <td>14</td>
+            <td rowspan="2">14</td>
             <td>15</td>
             <td>16</td>
             <td>17</td>
             <td>18</td>
             <td>19</td>
-            <td>20</td>
+            <td  rowspan="2">20 </td>
         </tr>
 
         <tr>
@@ -65,17 +68,19 @@
             <td>26</td>
             <td>27</td>
         </tr>
+        </tbody>
 
+        <tfoot>
         <tr>
             <td>28</td>
             <td>29</td>
-            <td>30</td>
+            <td colspan="4">30 </td>
             <td></td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
-
+        </tfoot>
     </table>
 </body>
 </html>
